@@ -2,8 +2,6 @@ const express = require('express');
 const mysql = require('mysql2');
 
 const app = express();
-const port = 8080;
-
 
 const db = mysql.createConnection({
     host:"newdatabase.cq3launkwzcx.ap-south-1.rds.amazonaws.com",
@@ -27,6 +25,7 @@ db.connect(err=>{
 
 app.get('/', (req, res) => res.send(s));
 
+const port = process.env.port || 8080;
 app.listen(port);
 
 
