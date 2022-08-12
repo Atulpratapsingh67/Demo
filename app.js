@@ -16,9 +16,7 @@ db.connect(err=>{
         return;
     }
     s="Connected";
-    while(1){
-        console.log("Connected");
-    }
+    console.log(s);
     
 });
 
