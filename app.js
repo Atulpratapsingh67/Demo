@@ -20,7 +20,6 @@ db.connect(err=>{
     s="Connected";
     while(1){
         console.log("Connected");
-        setInterval(5000);
     }
     
 });
