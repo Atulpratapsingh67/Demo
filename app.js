@@ -18,7 +18,11 @@ db.connect(err=>{
         return;
     }
     s="Connected";
-    console.log("Connected");
+    while(1){
+        console.log("Connected");
+        setInterval(5000);
+    }
+    
 });
 
 
