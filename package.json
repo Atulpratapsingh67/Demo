@@ -1,0 +1,16 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "Sample Node.js (Express) app for AWS Elastic Beanstalk",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines" : { 
+    "npm" : ">=8.13.1",
+    "node" : ">=16.15.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
