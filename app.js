@@ -6,11 +6,10 @@ const port = 8080;
 
 
 const db = mysql.createConnection({
-    host:"localhost",
+    host:"newdatabase.cq3launkwzcx.ap-south-1.rds.amazonaws.com",
     port:"3306",
-    user:"root",
-    password:"Atul@12345",
-    database:"world"
+    user:"NewDatabase",
+    password:"NewDatabase"
 });
 let s="Not connected";
 db.connect(err=>{
