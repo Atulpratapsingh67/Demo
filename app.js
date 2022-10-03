@@ -4,10 +4,10 @@ const mysql = require('mysql2');
 const app = express();
 
 const db = mysql.createConnection({
-    host:"newdatabase.cq3launkwzcx.ap-south-1.rds.amazonaws.com",
+    host:"testdatabase.cq3launkwzcx.ap-south-1.rds.amazonaws.com",
     port:"3306",
-    user:"NewDatabase",
-    password:"NewDatabase"
+    user:"testdatabase",
+    password:"testdatabase"
 });
 let s="Not connected";
 db.connect(err=>{
